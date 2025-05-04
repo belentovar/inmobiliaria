@@ -12,18 +12,19 @@
 	"claseCliente.h"
 	"ArchivoCliente.h"
 
-1746325641 source:c:\users\belen\desktop\chimpoco\inmobiliaria\clasecliente.cpp
+1746325865 source:c:\users\belen\desktop\chimpoco\inmobiliaria\clasecliente.cpp
 	<iostream>
 	<cstring>
 	"claseCliente.h"
 
 1746303930 c:\users\belen\desktop\chimpoco\inmobiliaria\clasecliente.h
 
-1746310629 source:c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.cpp
+1746329623 source:c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.cpp
 	<iostream>
 	"claseCliente.h"
 	"ArchivoCliente.h"
 	<cstring>
+	<string.h>
 
 1746307772 source:c:\users\belen\desktop\chimpoco\inmobiliaria\propiedad.cpp
 	<iostream>
@@ -32,5 +33,5 @@
 
 1746308658 c:\users\belen\desktop\chimpoco\inmobiliaria\propiedad.h
 
-1746310362 c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.h
+1746328653 c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.h
 

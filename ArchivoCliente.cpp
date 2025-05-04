@@ -2,6 +2,7 @@
 #include "claseCliente.h"
 #include "ArchivoCliente.h"
 #include <cstring>
+#include <string.h>
 using namespace std;
 
     ArchivoCliente::ArchivoCliente(const char *nombreArch){
@@ -46,3 +47,27 @@ using namespace std;
         fclose(pArchivo);
         return true;
     }
+
+    ///------------------------------------------------------------
+
+    Cliente ArchivoCliente::buscarPorDni(char *_dni){
+        Cliente cliente;
+        pArchivo=fopen(nombreArchivo,"rb");
+
+        if(pArchivo==nullptr){
+            cout <<"NO SE PUDO ABRIR EL ARCHIVO"<<endl;
+            return cliente;
+        }
+
+        while(fread(&cliente, tamanioRegistro,1,pArchivo)==1){
+            if(strcmp(cliente.getDNI(),_dni)==0){
+                cliente.mostrarCliente();
+            }
+        }
+        fclose(pArchivo);
+
+
+
+
+    }
+

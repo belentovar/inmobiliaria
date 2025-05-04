@@ -8,6 +8,8 @@ public:
     ArchivoCliente(const char *nombreArch="clientes.dat");
     int altaCliente();
     bool listado();
+    Cliente buscarPorDni(char *_dni);
+
 
 
 };
