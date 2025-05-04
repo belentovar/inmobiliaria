@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1746304624 source:c:\users\belen\desktop\chimpoco\inmobiliaria\main.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+
+1746248517 c:\users\belen\desktop\chimpoco\inmobiliaria\funciones.h
+
+1746324378 source:c:\users\belen\desktop\chimpoco\inmobiliaria\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+	"ArchivoCliente.h"
+
+1746325641 source:c:\users\belen\desktop\chimpoco\inmobiliaria\clasecliente.cpp
+	<iostream>
+	<cstring>
+	"claseCliente.h"
+
+1746303930 c:\users\belen\desktop\chimpoco\inmobiliaria\clasecliente.h
+
+1746310629 source:c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.cpp
+	<iostream>
+	"claseCliente.h"
+	"ArchivoCliente.h"
+	<cstring>
+
+1746307772 source:c:\users\belen\desktop\chimpoco\inmobiliaria\propiedad.cpp
+	<iostream>
+	"Propiedad.h"
+	"cstring"
+
+1746308658 c:\users\belen\desktop\chimpoco\inmobiliaria\propiedad.h
+
+1746310362 c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.h
+
