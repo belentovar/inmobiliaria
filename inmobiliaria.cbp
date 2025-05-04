@@ -32,9 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArchivoCliente.cpp" />
+		<Unit filename="ArchivoCliente.h" />
+		<Unit filename="Propiedad.cpp" />
+		<Unit filename="Propiedad.h" />
+		<Unit filename="claseCliente.cpp" />
+		<Unit filename="claseCliente.h" />
 		<Unit filename="funciones.cpp" />
 		<Unit filename="funciones.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="validaciones.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
