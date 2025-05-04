@@ -35,3 +35,38 @@
 
 1746328653 c:\users\belen\desktop\chimpoco\inmobiliaria\archivocliente.h
 
+1746326629 source:c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\archivocliente.cpp
+	<iostream>
+	"claseCliente.h"
+	"ArchivoCliente.h"
+	<cstring>
+
+1746326629 c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\clasecliente.h
+
+1746326629 c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\archivocliente.h
+
+1746326629 source:c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\clasecliente.cpp
+	<iostream>
+	<cstring>
+	"claseCliente.h"
+
+1746326629 source:c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\propiedad.cpp
+	<iostream>
+	"Propiedad.h"
+	"cstring"
+
+1746326629 c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\propiedad.h
+
+1746328635 source:c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+	"ArchivoCliente.h"
+
+1746326629 c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\funciones.h
+
+1746327288 source:c:\users\estudiante\desktop\cosas tomy\estudio\inmobiliaria\main.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+
