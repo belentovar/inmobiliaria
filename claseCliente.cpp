@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstring>
 #include "claseCliente.h"
+#include "validaciones.h"
+
 using namespace std;
 
     void Cliente::cargarCliente(){
@@ -28,11 +30,61 @@ using namespace std;
     }
 
     ///SETTERS-----------------------------------------------------
-    void Cliente::setApellido(const char *_apellido) {strcpy(apellido, _apellido);}
-    void Cliente::setNombre(const char *_nombre) {strcpy(nombre, _nombre);}
-    void Cliente::setDNI(const char *_dni) {strcpy(dni, _dni);}
-    void Cliente::setCelular(const char *_celular) {strcpy(celular, _celular);}
-    void Cliente::setEstadoCliente(bool _estadoC) {estadoCliente=_estadoC;}
+    void Cliente::setApellido(const char *_apellido) {
+        if(!esTexto(_apellido, strlen(_apellido))) {
+            strcpy(apellido, "Apellido invalido");
+            return;
+        }
+        
+        if(_apellido != nullptr && strlen(_apellido) <= 50){ 
+            strcpy(apellido, _apellido);
+        } else {
+            strcpy(apellido, "Apellido invalido");
+        }
+    }
+
+    void Cliente::setNombre(const char *_nombre) {
+        if(!esTexto(_nombre, strlen(_nombre))) {
+            strcpy(nombre, "Nombre invalido");
+            return;
+        }
+        
+        if(_nombre != nullptr && strlen(_nombre) <= 50){ 
+            strcpy(nombre, _nombre);
+        } else {
+            strcpy(nombre, "Nombre invalido");
+        }
+    }
+
+    void Cliente::setDNI(const char *_dni) {
+        if(!esNumero(_dni, strlen(_dni))) {
+            strcpy(dni, "DNI invalido");
+            return;
+        }
+
+        if(_dni != nullptr && strlen(_dni) <= 12){ 
+            strcpy(dni, _dni);
+        } else {
+            strcpy(dni, "DNI invalido");
+        }
+    }
+
+    void Cliente::setCelular(const char *_celular) {
+        if(!esNumero(_celular, strlen(_celular))) {
+            strcpy(celular, "error");
+            return;
+        }
+
+        if(_celular != nullptr && strlen(_celular) <= 15){ 
+            strcpy(celular, _celular);
+        } else {
+            strcpy(celular, "error");
+        }
+    }
+
+    void Cliente::setEstadoCliente(bool _estadoC) {
+        estadoCliente = _estadoC;
+    }
 
     ///GETTERS-----------------------------------------------------
     const char* Cliente::getApellido() {return apellido;}

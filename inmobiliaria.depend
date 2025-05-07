@@ -70,3 +70,90 @@
 	"funciones.h"
 	"claseCliente.h"
 
+1746588451 source:c:\users\nico\desktop\inmobiliaria\archivocliente.cpp
+	<iostream>
+	"claseCliente.h"
+	"ArchivoCliente.h"
+	<cstring>
+	<string.h>
+
+1746588451 c:\users\nico\desktop\inmobiliaria\clasecliente.h
+
+1746588451 c:\users\nico\desktop\inmobiliaria\archivocliente.h
+
+1746591133 source:c:\users\nico\desktop\inmobiliaria\clasecliente.cpp
+	<iostream>
+	<cstring>
+	"claseCliente.h"
+	"validaciones.h"
+
+1746591216 c:\users\nico\desktop\inmobiliaria\validaciones.h
+	<iostream>
+	<cctype>
+
+1746588451 source:c:\users\nico\desktop\inmobiliaria\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+	"ArchivoCliente.h"
+
+1746588451 c:\users\nico\desktop\inmobiliaria\funciones.h
+
+1746588451 source:c:\users\nico\desktop\inmobiliaria\main.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+
+1746590929 source:c:\users\nico\desktop\inmobiliaria\propiedad.cpp
+	<iostream>
+	"Propiedad.h"
+	"cstring"
+	"validaciones.h"
+
+1746590117 c:\users\nico\desktop\inmobiliaria\propiedad.h
+
+1746588451 source:c:\users\nico\desktop\nueva carpeta\archivocliente.cpp
+	<iostream>
+	"claseCliente.h"
+	"ArchivoCliente.h"
+	<cstring>
+	<string.h>
+
+1746588451 c:\users\nico\desktop\nueva carpeta\clasecliente.h
+
+1746588451 c:\users\nico\desktop\nueva carpeta\archivocliente.h
+
+1746591133 source:c:\users\nico\desktop\nueva carpeta\clasecliente.cpp
+	<iostream>
+	<cstring>
+	"claseCliente.h"
+	"validaciones.h"
+
+1746591216 c:\users\nico\desktop\nueva carpeta\validaciones.h
+	<iostream>
+	<cctype>
+
+1746588451 source:c:\users\nico\desktop\nueva carpeta\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+	"ArchivoCliente.h"
+
+1746588451 c:\users\nico\desktop\nueva carpeta\funciones.h
+
+1746588451 source:c:\users\nico\desktop\nueva carpeta\main.cpp
+	<iostream>
+	"funciones.h"
+	"claseCliente.h"
+
+1746590929 source:c:\users\nico\desktop\nueva carpeta\propiedad.cpp
+	<iostream>
+	"Propiedad.h"
+	"cstring"
+	"validaciones.h"
+
+1746590117 c:\users\nico\desktop\nueva carpeta\propiedad.h
+
+1746591219 source:c:\users\nico\desktop\nueva carpeta\validaciones.cpp
+	"validaciones.h"
+

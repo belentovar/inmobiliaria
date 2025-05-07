@@ -16,20 +16,18 @@ private:
 
 public:
 
-
-
     ///SETTERS------------------------------
-    void setCodInmueble(int cod);
-    void setTipoPropiedad(int tipo);
-    void setCalle(const char* c);
-    void setNumero(const char* n);
-    void setAntiguedad(int a);
-    void setSuperficieM2(float s);
-    void setHabitaciones(int h);
-    void setPrecioVenta(float p);
-    void setPrecioAlquiler(float p);
-    void setDniDuenio(const char* d);
-    void setEstadoPropiedad(bool estado);
+    void setCodInmueble(int _codigo);
+    void setTipoPropiedad(int _tipoInmueble);
+    void setCalle(const char* _calle);
+    void setNumero(const char* _numero);
+    void setAntiguedad(int _antiguedad);
+    void setSuperficieM2(float _superficie);
+    void setHabitaciones(int _habitaciones);
+    void setPrecioVenta(float _precioVenta);
+    void setPrecioAlquiler(float _precioAlquiler);
+    void setDniDuenio(const char* _dniDuenio);
+    void setEstadoPropiedad(bool _estado);
 
     ///GETTERS------------------------------
     int getCodInmueble();
